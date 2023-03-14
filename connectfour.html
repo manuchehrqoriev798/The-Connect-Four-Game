@@ -1,0 +1,84 @@
+<!-- todo: you can control column, row and length of winning combination  -->
+<!-- todo: design tie, some other pars-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="connectfour.css">
+  <title>Connect Four!</title>
+</head>
+<body>
+
+  <div class="game-over">
+    <div class="popup-game-over">
+      <h2 class="popup-title"> Game is over </h2>
+      <div class="popup-reset"> Restart the game </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h1>Connect Four</h1>
+    
+    <div class="game-board">                                        <!-- Big div that contains everything -->
+      <div class="cell row-top col-0"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-1"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-2"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-3"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-4"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-5"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-top col-6"></div>                        <!-- This row is not visible on the table. It would work as source of putting the balls into the table -->
+      <div class="cell row-0 col-0"></div>
+      <div class="cell row-0 col-1"></div>
+      <div class="cell row-0 col-2"></div>
+      <div class="cell row-0 col-3"></div>
+      <div class="cell row-0 col-4"></div>
+      <div class="cell row-0 col-5"></div>
+      <div class="cell row-0 col-6 "></div>
+      <div class="cell row-1 col-0"></div>
+      <div class="cell row-1 col-1"></div>
+      <div class="cell row-1 col-2"></div>
+      <div class="cell row-1 col-3"></div>
+      <div class="cell row-1 col-4"></div>
+      <div class="cell row-1 col-5"></div>
+      <div class="cell row-1 col-6 "></div>
+      <div class="cell row-2 col-0"></div>
+      <div class="cell row-2 col-1"></div>
+      <div class="cell row-2 col-2"></div>
+      <div class="cell row-2 col-3"></div>
+      <div class="cell row-2 col-4"></div>
+      <div class="cell row-2 col-5"></div>
+      <div class="cell row-2 col-6 "></div>
+      <div class="cell row-3 col-0"></div>
+      <div class="cell row-3 col-1"></div>
+      <div class="cell row-3 col-2"></div>
+      <div class="cell row-3 col-3"></div>
+      <div class="cell row-3 col-4"></div>
+      <div class="cell row-3 col-5"></div>
+      <div class="cell row-3 col-6 "></div>
+      <div class="cell row-4 col-0"></div>
+      <div class="cell row-4 col-1"></div>
+      <div class="cell row-4 col-2"></div>
+      <div class="cell row-4 col-3"></div>
+      <div class="cell row-4 col-4"></div>
+      <div class="cell row-4 col-5"></div>
+      <div class="cell row-4 col-6 "></div>
+      <div class="cell row-5 col-0 "></div>
+      <div class="cell row-5 col-1 "></div>
+      <div class="cell row-5 col-2 "></div>
+      <div class="cell row-5 col-3 "></div>
+      <div class="cell row-5 col-4 "></div>
+      <div class="cell row-5 col-5 "></div>
+      <div class="cell row-5 col-6 "></div>
+    </div>
+    <div class="footer">
+      <button class="reset">Reset</button>
+      <span class="status"></span>
+    </div>
+  </div>
+<script src="connectfour.js"></script>
+</body>
+</html>
