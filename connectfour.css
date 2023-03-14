@@ -235,14 +235,14 @@
       width: 55px;
     }
     
-    .cell::after {                                            /* Adds circles on the top row. Just adds*/
+    .cell::after {                                            
       height: 40px;
       width: 40px;
     }
 } 
 
 
-
+/* 
 @media only screen and (max-width: 415px){
   h1 {
     font-size: 25px;
@@ -255,22 +255,12 @@
     width: 50px;
   }
   
-  .cell::after {                                            /* Adds circles on the top row. Just adds*/
+  .cell::after {
     height: 35px;
     width: 35px;
   }
-} 
+}  */
 
 
-@media only screen and (max-width: 535px){
 
-} 
-
-@media only screen and (max-width: 450px){
-
-} 
-
-@media only screen and (max-width: 365px){
-
-} 
 
