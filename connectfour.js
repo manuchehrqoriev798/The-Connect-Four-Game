@@ -119,7 +119,7 @@ const checkWinningCells = (cells) => {
       statusSpan.style.color = 'red'
       statusSpan.style.border = '2px solid red'
     }
-    setTimeout(handleGameEnd, 1000);
+    setTimeout(handleGameEnd, 500);
     
   };
 
