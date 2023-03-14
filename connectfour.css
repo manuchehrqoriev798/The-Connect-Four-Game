@@ -225,12 +225,7 @@
 
 
   @media only screen and (max-width: 500px){
-    h1 {
-      font-weight: 600;
-    }
-    
-    
-    .cell {
+    /* .cell {
       height: 57px;
       width: 57px;
     }
@@ -238,7 +233,7 @@
     .cell::after {                                            
       height: 45px;
       width: 45px;
-    }
+    } */
 } 
 
 
